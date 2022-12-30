@@ -1,11 +1,12 @@
 #Provide the apache version and configuration lines to be changed 
 
+- To get the apache version I have used this command: apache2 -v
+- To hide the Apache version and the OS infomration, I have changed two parameters in /apache2/conf-enabled/security.conf
 
 # Apache Version
-
-
+Server version: Apache/2.4.7 (Ubuntu)
+Server built:   Apr  3 2019 18:04:59
 
 # Configuration file change(Hint: the change has to be made in /etc/apache2/conf-enabled/security.conf)
-
-
-
+ServerTokens Prod
+ServerSignature off
