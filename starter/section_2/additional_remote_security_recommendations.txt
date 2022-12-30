@@ -1,0 +1,6 @@
+1. Configure second factor authentication.
+2. Change the default SSH options such as: 
+	2.1 Disable root login.
+	2.2 Change default port.
+	2.3 Use "AllowUsers" to restrict users access.
+3. Restrict the number of failed login attempts.
